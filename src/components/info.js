@@ -4,7 +4,7 @@ const Info = () => {
   return (
     <>
       <div className="info hero">
-        {/* {<h1>A little bit about myself</h1>} */}
+        <h1>A little bit about myself</h1>
         <div className="wrapper">
           <div className="img">
             <img src="assets/profile.jpg" alt="mole" />

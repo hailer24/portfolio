@@ -2,6 +2,7 @@ import "./App.css";
 import Hero from "./components/hero";
 import Info from "./components/info";
 import Navbar from "./components/navbar";
+import Skills from "./components/skills";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <div className="spacing"></div>
       <div className="spacing"></div>
       <Info />
+      <Skills />
     </div>
   );
 }

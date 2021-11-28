@@ -11,7 +11,7 @@ const Hero = () => {
       <Matrix />
       <div className="container">
         <h2>
-          Hi I'm <span>an</span>mol
+          Hi I'm <span>a/n</span> mol<span>e</span>
         </h2>
         <br></br>
         <div className="addName">

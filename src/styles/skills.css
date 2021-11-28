@@ -1,0 +1,20 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.skillList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.skill {
+  text-transform: capitalize;
+  padding: 20px;
+  font-size: 36px;
+}
