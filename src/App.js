@@ -2,6 +2,7 @@ import "./App.css";
 import Hero from "./components/hero";
 import Info from "./components/info";
 import Navbar from "./components/navbar";
+import Projects from "./components/projects";
 import Skills from "./components/skills";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <div className="spacing"></div>
       <div className="spacing"></div>
       <Info />
+      <Projects />
       <Skills />
     </div>
   );
