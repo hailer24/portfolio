@@ -21,6 +21,7 @@
   width: 7px;
   height: 7px;
   background-color: #fdee58;
+  z-index: 2;
   margin-right: 5rem;
   border-radius: 50%;
 }
@@ -91,4 +92,5 @@
 
 .info {
   flex-direction: column;
+  justify-content: end;
 }

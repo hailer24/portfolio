@@ -1,8 +1,9 @@
 import React from "react";
+import "../styles/projects.css";
 
 const LIST = [
   {
-    name: "Linkedin-clone",
+    name: "Linkedin-Clone",
     stack: "React.js, redux, firebase",
     description: "A react redux based Linked in clone",
     link: "https://github.com/hailer24/LinkedIn-clone",
@@ -15,40 +16,46 @@ const LIST = [
     link: "https://github.com/hailer24/microinnovator-2020",
   },
   {
-    name: "ord-com",
-    stack: "python, matplotlib, numpy, openCV",
-    link: "https://github.com/hailer24/ord-com",
-    description:
-      "ord-com is a 3 plot of 2d block coordinates and it is a solution to problem statement in vantage 2020 organised by IIT guwahati and bagged 1st position.",
-  },
-  {
-    name: "markdown-editor",
+    name: "Markdown-Editor",
     stack: "react.js, ReactMarkdown ",
     link: "https://github.com/hailer24/markdown-editor",
     description:
       "A basic markdown Editor using react and it's basic properties of hook and context",
+  },
+  {
+    name: "Ord-Com",
+    stack: "python, matplotlib, numpy, openCV",
+    link: "https://github.com/hailer24/ord-com",
+    description:
+      "ord-com is a 3 plot of 2d block coordinates and it is a solution to problem statement in vantage 2020 organised by IIT guwahati and bagged 1st position.",
   },
 ];
 
 const Projects = () => {
   const Project = ({ name, stack, description, link, live, idx }) => {
     return (
-      <div className={`project proj${idx}`}>
-        <div className="head">{name}</div>
-        <div className="stack">{stack}</div>
-        <div className="description">{description}</div>
-        <div className="link">
-          link to repo<a href={link}>{link}</a>
+      <div className={`project proj${idx} heading`}>
+        <div className="head">
+          <h5 className="hName">{name}</h5>
         </div>
-        <div className="live">
-          link to project <a href={live}>{live}</a>
+        <div className="stack">
+          <h6 className="subHeading">{stack}</h6>
+        </div>
+        <div className="description">{description} </div>
+
+        <div className="link">
+          link to repository <br></br>
+          <a href={link}>{link}</a>
+          {live ? <a href={live}>{live}</a> : <div></div>}
         </div>
       </div>
     );
   };
   return (
-    <div className="projects">
-      <div className="head">Some Projects -</div>
+    <div className="projects hero">
+      <div className="hName">
+        <h1>Some Projects that I made</h1>
+      </div>
       {LIST.map((e, idx) => {
         return (
           <Project

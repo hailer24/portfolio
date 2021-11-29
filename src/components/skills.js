@@ -57,14 +57,14 @@ const Skills = () => {
     },
   ];
   return (
-    <div className="hero skills">
-      <h2>My skill set</h2>
+    <div className="skills">
+      <h4>My skill set</h4>
       <div className="skillList">
         {list.map((e, idx) => {
           return <Skill name={e.name} key={e.name} idx={idx + 1} />;
         })}
       </div>
-      <h2>What I want to learn</h2>
+      <h4>What I want to master</h4>
       <div className="skillList">
         {want.map((e, idx) => {
           return <Skill name={e.name} key={e.name} idx={idx + 1} />;

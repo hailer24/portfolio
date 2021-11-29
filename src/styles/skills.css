@@ -1,20 +1,26 @@
 .skills {
   display: flex;
   flex-direction: column;
+  margin-top: 0%;
+  max-width: 1300px;
+  margin: 0px auto;
 }
 
 .skillList {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3fr, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  width: 100%;
+  width: 60%;
   text-align: center;
 }
 
 .skill {
   text-transform: capitalize;
   padding: 20px;
+  font-size: 18px;
+}
+.skills h4 {
   font-size: 36px;
 }

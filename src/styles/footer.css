@@ -1,0 +1,32 @@
+.footer {
+  background: #fff;
+  z-index: 10;
+  border-top: 1px solid #d6d6d6;
+  position: absolute;
+  width: 100%;
+  padding-bottom: 2%;
+}
+
+.wrap {
+  max-width: 1300px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-column-gap: 10px;
+  height: fit-content;
+}
+
+.endNotes {
+  width: 90%;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.wrap .right {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.socials {
+  margin-left: 10px;
+}

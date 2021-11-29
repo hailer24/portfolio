@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./components/footer";
 import Hero from "./components/hero";
 import Info from "./components/info";
 import Navbar from "./components/navbar";
@@ -15,8 +16,11 @@ function App() {
       <div className="spacing"></div>
       <div className="spacing"></div>
       <Info />
-      <Projects />
       <Skills />
+      <Projects />
+      <div className="spacing"></div>
+      <div className="spacing"></div>
+      <Footer></Footer>
     </div>
   );
 }
