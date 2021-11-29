@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../styles/home.css";
 import Matrix from "./matrix";
 import Plus from "./plus";
