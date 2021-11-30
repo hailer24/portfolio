@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/skills.css";
 
 const Skill = ({ name, idx }) => {
   return <div className={`div${idx} skill`}>{name}</div>;
@@ -57,7 +56,7 @@ const Skills = () => {
     },
   ];
   return (
-    <div className="skills">
+    <div className="skills hero">
       <h4>My skill set</h4>
       <div className="skillList">
         {list.map((e, idx) => {

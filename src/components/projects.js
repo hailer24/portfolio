@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/projects.css";
 
 const LIST = [
   {
@@ -8,17 +7,20 @@ const LIST = [
     description: "A react redux based Linked in clone",
     link: "https://github.com/hailer24/LinkedIn-clone",
     live: "https://linkedin-clone-1003.web.app/",
+    linkName: "hailer24/LinkedIn-clone",
   },
   {
     name: "Soteria",
     stack: "C++, nodeMCU, arduino, thingSpeak",
     description: "A IOT based Heart beat sensor and epilepsy alert device",
     link: "https://github.com/hailer24/microinnovator-2020",
+    linkName: "hailer24/microinnovator-2020",
   },
   {
     name: "Markdown-Editor",
     stack: "react.js, ReactMarkdown ",
     link: "https://github.com/hailer24/markdown-editor",
+    linkName: "hailer24/ord-com",
     description:
       "A basic markdown Editor using react and it's basic properties of hook and context",
   },
@@ -26,13 +28,14 @@ const LIST = [
     name: "Ord-Com",
     stack: "python, matplotlib, numpy, openCV",
     link: "https://github.com/hailer24/ord-com",
+    linkName: "hailer24/ord-com",
     description:
       "ord-com is a 3 plot of 2d block coordinates and it is a solution to problem statement in vantage 2020 organised by IIT guwahati and bagged 1st position.",
   },
 ];
 
 const Projects = () => {
-  const Project = ({ name, stack, description, link, live, idx }) => {
+  const Project = ({ name, stack, description, link, live, idx, linkName }) => {
     return (
       <div className={`project proj${idx} heading`}>
         <div className="head">
@@ -45,7 +48,7 @@ const Projects = () => {
 
         <div className="link">
           link to repository <br></br>
-          <a href={link}>{link}</a>
+          <a href={link}>{linkName}</a>
           <br></br>
           {live ? <a href={live}>{live}</a> : <div></div>}
         </div>
@@ -67,6 +70,7 @@ const Projects = () => {
             link={e.link}
             live={e.live}
             idx={idx}
+            linkName={e.linkName}
           />
         );
       })}
