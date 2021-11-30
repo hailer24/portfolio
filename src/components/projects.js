@@ -46,6 +46,7 @@ const Projects = () => {
         <div className="link">
           link to repository <br></br>
           <a href={link}>{link}</a>
+          <br></br>
           {live ? <a href={live}>{live}</a> : <div></div>}
         </div>
       </div>

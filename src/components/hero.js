@@ -1,14 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/home.css";
 import Matrix from "./matrix";
-import Plus from "./plus";
 
 const Hero = () => {
-  // let [name, setName] = useState("anmol");
+  // let [name, setName] = useState("what's yours");
+  const [active, setActive] = useState(false);
+  const changeClr = () => {
+    if (window.scrollY > 100) setActive(true);
+    else setActive(false);
+  };
+  window.addEventListener("scroll", changeClr);
   return (
     <div className="hero">
-      <Plus />
-      <Matrix />
+      <Matrix
+        className={active ? "active circle" : "circle"}
+        row={8}
+        col={16}
+      />
       <div className="container">
         <h2>
           Hi I'm <span>a/n</span> mol<span>e</span>
@@ -16,7 +24,6 @@ const Hero = () => {
         <br></br>
         <div className="addName">
           {/* {<h2>
-            And you are
             <input
               className="nameInput"
               value={name}

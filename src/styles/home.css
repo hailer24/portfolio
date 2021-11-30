@@ -23,6 +23,7 @@
   background-color: #fdee58;
   z-index: 2;
   margin-right: 5rem;
+  transition: all ease 0.5s;
   border-radius: 50%;
 }
 
@@ -93,4 +94,9 @@
 .info {
   flex-direction: column;
   justify-content: end;
+}
+
+.row .active {
+  transition: all ease 0.5s;
+  background: rgba(200, 200, 200, 0.5);
 }
