@@ -9,7 +9,7 @@ import Skills from "./components/skills";
 function App() {
   return (
     <div className="app">
-      <div className="spacing"></div>
+      <div className="spacing sp-1"></div>
 
       <Navbar />
       <Hero />

@@ -7,6 +7,10 @@
   display: flex;
   justify-content: center;
 }
+
+a:hover {
+  color: #fdee58;
+}
 .container {
   text-align: center;
   margin: auto;
@@ -299,7 +303,8 @@ h6 {
     padding: none;
     margin: none;
   }
-  .navbar {
+  .navbar,
+  .sp1 {
     display: none;
   }
   .wrap {

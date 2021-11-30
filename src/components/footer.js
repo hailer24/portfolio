@@ -22,8 +22,14 @@ const Footer = () => {
           </div>
         </div>
         <div className="socials">
-          <span className="linkedin">linkedin</span>{" "}
-          <span className="gihub">github</span>
+          <span className="linkedin">
+            <a href="https://www.linkedin.com/in/anmol-bhutani-b132931a5/">
+              linkedin
+            </a>
+          </span>{" "}
+          <span className="gihub">
+            <a href="https://github.com/hailer24">github</a>
+          </span>
         </div>
         <div className="copy">made by mole</div>
       </div>
