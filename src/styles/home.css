@@ -299,7 +299,15 @@ h6 {
     padding: none;
     margin: none;
   }
-  h4 {
-    align-items: flex-start;
+  .navbar {
+    display: none;
+  }
+  .wrap {
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+  .copy,
+  .socials {
+    margin: auto;
   }
 }

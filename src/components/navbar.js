@@ -19,7 +19,9 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <a href="/" className="mole">
-                <h6 className="nav-item">Contact</h6>
+                <h6 className="nav-item">
+                  <a href="assets/Anmol.pdf">Resume</a>
+                </h6>
               </a>
             </li>
           </ul>

@@ -18,14 +18,14 @@ const Footer = () => {
           </div>
           <div className="resume">
             <h4>Take a look at my resume</h4>
-            resume.pdf
+            <a href="assets/Anmol.pdf">Resume</a>
           </div>
         </div>
-        <div className="copy">made by mole</div>
         <div className="socials">
           <span className="linkedin">linkedin</span>{" "}
           <span className="gihub">github</span>
         </div>
+        <div className="copy">made by mole</div>
       </div>
     </div>
   );

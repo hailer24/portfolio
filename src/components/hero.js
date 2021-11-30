@@ -18,9 +18,7 @@ const Hero = () => {
         col={16}
       />
       <div className="container">
-        <h2>
-          Hi I'm <span>a/n</span> mol<span>e</span>
-        </h2>
+        <h2>Hi I'm anmol</h2>
         <br></br>
         <div className="addName">
           {/* {<h2>
