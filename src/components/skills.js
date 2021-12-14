@@ -20,10 +20,6 @@ const Skills = () => {
       photo: "assets/c.png",
     },
     {
-      name: "   html",
-      photo: "assets/html.png",
-    },
-    {
       name: "Image processing",
       photo: "assets/css.png",
     },
@@ -49,10 +45,10 @@ const Skills = () => {
       name: "Rust",
     },
     {
-      name: "",
+      name: "web 3.0",
     },
     {
-      name: "web 3.0",
+      name: "Solana",
     },
   ];
   return (

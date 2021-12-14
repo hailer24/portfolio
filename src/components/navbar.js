@@ -8,14 +8,46 @@ const Navbar = () => {
         <div className="nav-item">
           <ul>
             <li className="nav-item">
-              <a href="/" className="mole">
-                <h6 className="nav-item">home</h6>
-              </a>
+              <h6
+                className="nav-item mole"
+                onClick={() =>
+                  window.scrollTo({
+                    top: 0,
+                    left: 100,
+                    behavior: "smooth",
+                  })
+                }
+              >
+                home
+              </h6>
             </li>
             <li className="nav-item">
-              <a href="/" className="mole">
-                <h6 className="nav-item">about</h6>
-              </a>
+              <h6
+                className="nav-item mole"
+                onClick={() =>
+                  window.scrollTo({
+                    top: 500,
+                    left: 100,
+                    behavior: "smooth",
+                  })
+                }
+              >
+                about
+              </h6>
+            </li>
+            <li className="nav-item">
+              <h6
+                className="nav-item mole"
+                onClick={() =>
+                  window.scrollTo({
+                    top: 1650,
+                    left: 100,
+                    behavior: "smooth",
+                  })
+                }
+              >
+                Projects
+              </h6>
             </li>
             <li className="nav-item">
               <a href="/" className="mole">

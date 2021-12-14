@@ -29,6 +29,9 @@ const Footer = () => {
           </span>{" "}
           <span className="gihub">
             <a href="https://github.com/hailer24">github</a>
+          </span>{" "}
+          <span className="leetcode">
+            <a href="https://github.com/hailer24">Leetcode</a>
           </span>
         </div>
         <div className="copy">made by mole</div>

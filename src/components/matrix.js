@@ -1,10 +1,10 @@
 import React from "react";
 
 const Matrix = (props) => {
-  console.log(props);
+  //console.log(props);
   let row = [];
   row.length = props.row;
-  console.log(row);
+  //console.log(row);
   let col = [];
   col.length = props.col;
   col.fill(1);
