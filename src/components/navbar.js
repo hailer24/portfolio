@@ -52,7 +52,13 @@ const Navbar = () => {
             <li className="nav-item">
               <a href="/" className="mole">
                 <h6 className="nav-item">
-                  <a href="assets/Anmol.pdf">Resume</a>
+                  <a
+                    href="assets/Anmol.pdf"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    Resume
+                  </a>
                 </h6>
               </a>
             </li>

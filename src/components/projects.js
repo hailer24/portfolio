@@ -48,9 +48,17 @@ const Projects = () => {
 
         <div className="link">
           <br></br>
-          <a href={link}>{linkName}</a>
+          <a href={link} target="_blank" rel="noreferrer noopener">
+            {linkName}
+          </a>
           <br></br>
-          {live ? <a href={live}>{live}</a> : <div></div>}
+          {live ? (
+            <a href={live} target="_blank" rel="noreferrer noopener">
+              {live}
+            </a>
+          ) : (
+            <div></div>
+          )}
         </div>
       </div>
     );

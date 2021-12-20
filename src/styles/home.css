@@ -6,6 +6,7 @@
   align-items: center;
   display: flex;
   justify-content: center;
+  flex-direction: row-reverse;
 }
 
 a:hover {
@@ -23,8 +24,8 @@ a:hover {
 }
 
 .row .circle {
-  width: 1vh;
-  height: 1vh;
+  width: 1.2vh;
+  height: 1.2vh;
   background-color: #fdee58;
   z-index: 2;
   margin-right: 8vh;
@@ -42,23 +43,13 @@ a:hover {
   flex-direction: column;
 }
 
-.plus {
-  color: #000;
-  font-weight: 800;
-  font-size: 1.5rem;
-  letter-spacing: 20px;
-  position: fixed;
-  bottom: 3%;
-  left: 50%;
+.matrix .true {
+  position: relative;
 }
 
-.nameInput {
-  border: none;
-  border-bottom: solid 2px #fdee58;
-}
-.nameInput:focus {
-  border: none;
-  border-bottom: solid 2px #fdee58;
+.row .true {
+  height: 5vh;
+  width: 5vh;
 }
 
 .img {

@@ -14,24 +14,48 @@ const Footer = () => {
         <div className="right">
           <div className="mail">
             <h4>Mail me</h4>
-            <a href="mailto:mail2mole@gmail.com">mail2mole@gmail.com</a>
+            <a href="mailto:anmolbhutanianmol@gmail.com">
+              anmolbhutanianmol@gmail.com
+            </a>
           </div>
           <div className="resume">
             <h4>Take a look at my resume</h4>
-            <a href="assets/Anmol.pdf">Resume</a>
+            <a
+              href="assets/Anmol.pdf"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Resume
+            </a>
           </div>
         </div>
         <div className="socials">
           <span className="linkedin">
-            <a href="https://www.linkedin.com/in/anmol-bhutani-b132931a5/">
+            <a
+              href="https://www.linkedin.com/in/anmol-bhutani-b132931a5/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               linkedin
             </a>
           </span>{" "}
           <span className="gihub">
-            <a href="https://github.com/hailer24">github</a>
+            <a
+              href="https://github.com/hailer24"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              github
+            </a>
           </span>{" "}
           <span className="leetcode">
-            <a href="https://github.com/hailer24">Leetcode</a>
+            <a
+              href="https://leetcode.com/hailer24"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Leetcode
+            </a>
           </span>
         </div>
         <div className="copy">made by mole</div>
