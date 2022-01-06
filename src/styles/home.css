@@ -24,8 +24,8 @@ a:hover {
 }
 
 .row .circle {
-  width: 1.2vh;
-  height: 1.2vh;
+  width: 2vh;
+  height: 2vh;
   background-color: #fdee58;
   z-index: 2;
   margin-right: 8vh;
